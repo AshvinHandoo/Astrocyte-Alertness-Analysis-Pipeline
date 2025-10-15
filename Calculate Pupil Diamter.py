@@ -99,7 +99,7 @@ for file_name in os.listdir(folder_path):
         else:
             stimulation = 'NA'
 
-        # Determine animal sex
+        # Determine the animal sex
         sex = 'male' if 'm1' in file_name else ('female' if 'f1' in file_name else 'NA')
 
         # Extract name from file name
